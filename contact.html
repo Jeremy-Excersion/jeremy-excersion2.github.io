@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="script" href="js/main.js">
+</head>
+
+<body>
+    <header class="flex yellow-b-border">
+        <a href="/index.html"><img src="images/logo.svg" alt="Idaho logo"></a>
+        <div id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="flex w-full">
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="boise.html">State Capital</a></li>
+                <li><a class="nav-link" href="meridian.html">Meridian</a></li>
+                <li><a class="nav-link" href="kuna.html">Kuna</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav class="mobile-nav">
+        <ul>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="boise.html">State Capital</a></li>
+            <li><a class="nav-link" href="meridian.html">Meridian</a></li>
+            <li><a class="nav-link" href="kuna.html">Kuna</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="block container">
+        <div class="flex-container">
+
+            <section class="section basis-2/3">
+                <h1 class="text-center">Contact Us to Learn More</h1>
+                <div class="block">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" placeholder="Enter your last name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-email">Confirm Email</label>
+                            <input type="email" id="confirm-email" placeholder="Confirm your email address" required>
+                            <span id="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="question">Question</label>
+                            <textarea id="question" rows="4" placeholder="Ask your question"></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+
+            <aside class="aside">
+                <h2 class="text-center">Additional Contact Info</h2>
+                <div class="box">
+                    <ul>
+                        <li><strong>Phone:</strong> <a href="2085555555">208.555.5555</a></li>
+                        <li><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere varius lectus, eu
+                    scelerisque nunc.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Phone: <a href="tel:2085555555">208.555.5555</a></p>
+                <p>Address: 123 Main St, Boise, Idaho</p>
+            </div>
+            <div class="footer-section">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form action="#" method="POST">
+                    <input type="email" name="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
